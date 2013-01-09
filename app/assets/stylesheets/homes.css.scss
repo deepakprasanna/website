@@ -1,0 +1,30 @@
+// Place all the styles related to the homes controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.logo {
+  margin-bottom: 180px;
+  padding-left: 20px;
+  width: 440px;
+  border-left: 1px dotted #EEE;
+  -webkit-font-smoothing: antialiased;
+  .systeminsights {
+    display: block;
+    font: 400 60px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #353535;
+    width: 100%;
+
+  }
+  .tag {
+    position: relative;
+    font: 100 30px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #CECECE;
+    line-height: .75;
+  }
+}
+
+.logo:hover {
+  .tag {
+    color: #777;
+  }
+}
