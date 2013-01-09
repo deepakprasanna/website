@@ -1,5 +1,4 @@
 Systeminsights::Application.routes.draw do
-  get "homes/welcome"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
@@ -52,6 +51,9 @@ Systeminsights::Application.routes.draw do
   # just remember to delete public/index.html.
   match "/about" => 'homes#about'
   match "/products" => 'homes#products'
+  match "/contact" => 'homes#contact'
+  match "/open_source" => 'homes#open_source'
+  match "/jobs" => 'homes#jobs'
   root :to => 'homes#welcome'
 
   # See how all your routes lay out with "rake routes"

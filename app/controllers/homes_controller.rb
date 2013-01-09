@@ -7,4 +7,10 @@ class HomesController < ApplicationController
 
   def products
   end
+
+  def open_source
+  end
+
+  def jobs
+  end
 end
